@@ -8,8 +8,8 @@ let gulp = require('gulp'),
     cssmin = require('gulp-cssmin');
 
 gulp.task('sass', function() {
-    return gulp.src('app/scss/style.scss')
-        .pipe(sass({ outputStyle: 'compressed' }))
+    return gulp.src('app/scss/**/*.scss')
+        .pipe(sass({ outputStyle: 'expanded' }))
         .pipe(rename({ suffix: '.min' }))
         .pipe(autoprefixer({
             overrideBrowserslist: ['last 8 versions']

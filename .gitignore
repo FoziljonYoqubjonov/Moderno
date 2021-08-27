@@ -1,8 +1,8 @@
-DC_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 .vs
 
-*.log
 node_modules/
 app/css/
+

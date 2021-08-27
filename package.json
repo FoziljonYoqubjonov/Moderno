@@ -16,7 +16,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.1",
     "gulp-uglify": "^3.0.2",
     "ion-rangeslider": "^2.3.0",
     "jquery-form-styler": "^2.0.2",
